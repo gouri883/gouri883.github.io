@@ -1,120 +1,221 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Gouri Nandana R | Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Gouri Nandana R |  Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #4e54c8, #8f94fb);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      margin: 10px 0 5px;
+    }
+
+    header p {
+      margin: 5px 0;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      color: #4e54c8;
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: #e7e9ff;
+      color: #4e54c8;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c2f4a;
+      color: white;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #4e54c8;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
-<body style="font-family: Arial; padding: 40px; line-height: 1.6;">
+<body>
 
-  <center>
-    <img src="photo.jpeg" width="160" style="border-radius: 50%;"><br><br>
-
+  <!-- HEADER -->
+  <header>
+    <img src="photo.jpeg" alt="Gouri Nandana R">
     <h1>Gouri Nandana R</h1>
+    <p>Integrated M.Sc. Data Science Student</p>
     <p>
-      Integrated M.Sc. Data Science Student <br>
       📞 9074348776 |
-      📧 gourinandanarajesh@gmail.com <br>
-      🔗 <a href="https://www.linkedin.com/in/gouri-nandana-r-06335624a/" target="_blank">LinkedIn</a>
+      📧 gourinandanarajesh@gmail.com |
+      <a href="https://www.linkedin.com/in/gouri-nandana-r-06335624a/" target="_blank" style="color:white;">LinkedIn</a>
     </p>
-  </center>
+  </header>
 
-  <hr>
+  <!-- OBJECTIVE -->
+  <section>
+    <div class="card">
+      <h2>Objective</h2>
+      <p>
+        Passionate about leveraging data for insights and impact. Actively honing
+        skills across data science, analytics, and machine learning with strong
+        decision-making and time-management abilities.
+      </p>
+    </div>
+  </section>
 
-  <h2>Objective</h2>
-  <p>
-    Passionate about leveraging data for insights and impact. Currently honing my
-    skills in various areas of data science with strong abilities in decision-making
-    and time management.
-  </p>
+  <!-- EDUCATION -->
+  <section>
+    <div class="card">
+      <h2>Education</h2>
+      <p><b>Integrated M.Sc. Data Science</b><br>
+         Amrita Vishwa Vidyapeetham, Coimbatore (2022 – 2027)<br>
+         CGPA: 8.27 | SGPA: 8.77
+      </p>
 
-  <h2>Education</h2>
-  <h3>Integrated M.Sc. Data Science</h3>
-  <p>
-    Amrita Vishwa Vidyapeetham, Coimbatore Campus <br>
-    2022 – 2027 <br>
-    CGPA: 8.27 | SGPA: 8.77
-  </p>
+      <p><b>Higher Secondary (Biology–Maths)</b><br>
+         T.K.M Centenary Public School, Kollam (CBSE)<br>
+         2020 – 2022 | 81.6%
+      </p>
 
-  <h3>Higher Secondary Education</h3>
-  <p>
-    Biology – Maths <br>
-    T.K.M Centenary Public School, Kollam <br>
-    CBSE | 2020 – 2022 <br>
-    Marks: 81.6%
-  </p>
+      <p><b>Secondary Education</b><br>
+         Sree Narayana Public School, Kollam (CBSE)<br>
+         2019 – 2020 | 95.4%
+      </p>
+    </div>
+  </section>
 
-  <h3>Secondary Education</h3>
-  <p>
-    Sree Narayana Public School, Kollam <br>
-    CBSE | 2019 – 2020 <br>
-    Marks: 95.4%
-  </p>
+  <!-- SKILLS -->
+  <section>
+    <div class="card">
+      <h2>Technical Skills & Interests</h2>
+      <div class="skills">
+        <div class="skill">Python</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">Machine Learning</div>
+        <div class="skill">Reinforcement Learning</div>
+        <div class="skill">Data Visualization</div>
+        <div class="skill">Optimization</div>
+        <div class="skill">Multivariate Statistics</div>
+        <div class="skill">Business Analytics</div>
+      </div>
+    </div>
+  </section>
 
-  <h2>Areas of Technical Interest</h2>
-  <ul>
-    <li>Optimization</li>
-    <li>MySQL</li>
-    <li>Python</li>
-    <li>Data Visualization</li>
-    <li>Multivariate Statistics</li>
-    <li>Machine Learning</li>
-    <li>Reinforcement Learning</li>
-    <li>Business Analytics</li>
-  </ul>
+  <!-- PROJECTS -->
+  <section>
+    <div class="card">
+      <h2>Projects</h2>
 
-  <h2>Projects</h2>
+      <p><b>Power BI Dashboard – Hospitality Analytics</b><br>
+        Built an interactive Power BI dashboard to analyze occupancy rates and
+        RevPAR. Implemented data modeling, DAX measures, and advanced
+        visualizations for enhanced decision-making and real-time reporting.
+      </p>
 
-  <h3>Power BI Dashboard – Hospitality Analytics</h3>
-  <p>
-    Developed an interactive Power BI dashboard to analyze key performance
-    metrics such as occupancy rates and revenue per available room (RevPAR).
-    Implemented data modeling, DAX measures, and advanced visualizations to
-    enhance decision-making. Optimized data processing for real-time reporting,
-    improving data accuracy and operational transparency.
-  </p>
+      <p><b>Zomato Data Analysis</b><br>
+        Performed exploratory data analysis to uncover trends and correlations.
+        Designed interactive visualizations including a Sunburst Chart to analyze
+        restaurant categories and online ordering patterns.
+      </p>
+    </div>
+  </section>
 
-  <h3>Zomato Data Analysis</h3>
-  <p>
-    Performed exploratory data analysis to identify trends, distributions, and
-    correlations within the dataset. Created interactive visualizations including
-    a Sunburst Chart to analyze restaurant categories, booking options, and online
-    ordering trends.
-  </p>
+  <!-- CERTIFICATIONS -->
+  <section>
+    <div class="card">
+      <h2>Certifications</h2>
+      <ul>
+        <li>SQL (Basics) – HackerRank</li>
+        <li>Data Structures & Algorithms in Python – Udemy</li>
+        <li>Python Fundamentals – Great Learning</li>
+      </ul>
+    </div>
+  </section>
 
-  <h2>Other Technical Qualifications</h2>
-  <ul>
-    <li>SQL (Basics) – HackerRank</li>
-    <li>Data Structures and Algorithms in Python – Udemy</li>
-    <li>Python Fundamentals – Great Learning</li>
-  </ul>
+  <!-- ACHIEVEMENTS -->
+  <section>
+    <div class="card">
+      <h2>Achievements</h2>
+      <p>
+        <b>SNDP Award</b> – Awarded for academic excellence by scoring above
+        90% in CBSE board examinations (2020, Kollam).
+      </p>
+    </div>
+  </section>
 
-  <h2>Achievements</h2>
-  <p>
-    <b>SNDP Award</b> – Recognized for academic excellence by scoring above
-    90% in CBSE board examination (2020, Kollam).
-  </p>
+  <!-- PERSONAL -->
+  <section>
+    <div class="card">
+      <h2>Personal Details</h2>
+      <p>
+        Date of Birth: 08-08-2003<br>
+        Languages: Malayalam (Native), English (Limited Working Proficiency)<br>
+        Hobbies: Pencil Sketching, Doodling, Music (Pop & Rock), Indoor Rock Climbing<br>
+        Address: Srinivas, Parippally P.O, Kollam
+      </p>
+    </div>
+  </section>
 
-  <h2>Extra Curricular Activities</h2>
-  <p>
-    Member of School Arts Club
-  </p>
-
-  <h2>Personal Details</h2>
-  <p>
-    Date of Birth: 08-08-2003 <br>
-    Languages: Malayalam (Native), English (Limited Working Proficiency) <br>
-    Hobbies: Pencil Sketching, Doodling, Music (Pop & Rock), Indoor Rock Climbing <br>
-    Address: Srinivas, Parippally P.O, Kollam
-  </p>
-
-  <hr>
-
-  <center>
-    <p>
-      Place: Ettimadai, Coimbatore <br><br>
-      <b>Gouri Nandana R</b>
-    </p>
-  </center>
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Gouri Nandana R | Data Science Portfolio</p>
+  </footer>
 
 </body>
 </html>
